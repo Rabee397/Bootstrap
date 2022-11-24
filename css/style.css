@@ -1,0 +1,77 @@
+/* General */
+body{height:100%;width:100%;font-family:'poppins',sans-serif;color:#222}
+.padding{padding-bottom: 2rem;}
+
+
+/* nav */
+nav{background-color: #cac8c8;}
+.navbar-nav{padding-right:5rem}
+.nav-item{padding-right:2rem;}
+.nav-link{font-size:1.3rem;}
+
+/*Main-section */
+.carousel-item img{max-width:100%}
+.carousel-caption{position: absolute;top:50%;transform:translateY(-50%)}
+.carousel-caption h1{font-size:500%;text-transform: uppercase;text-shadow: 1px 1px 15px black;}
+.carousel-caption h3{font-size:200%;font-weight:500;text-shadow: 1px 1px 10px black;padding-bottom: 1rem;}
+.btn-purple{background-color: blueviolet;color: #fff;}
+
+/* Web-hosting-section   */
+.jumbotron{border-radius:0}
+
+/* welcoming-section */
+.welcome{width:75%;margin:auto;padding-top: 2rem;}
+.welcome hr{border-top: 2px solid #b4b4b4;width:95%;margin-top: .3rem;margin-bottom: 1rem;}
+
+/*front-end-langauges */
+.front-end-langauges i{font-size: 4rem;margin: 1rem 0;}
+.html-icon{color:tomato}
+.boot-icon{color:blueviolet;}
+.css-icon{color:blue}
+
+/* Background-img */
+.bg-img{background-image:url(../images/mac.png);background-size: cover;background-position: center;background-attachment: fixed;width:100%;height:500px}
+
+
+/* Emoji-section */
+.fun{margin-bottom: 2rem;display: block; text-align: center;width:100%;border-radius:0;font-size: 1.2rem;}
+.gif{max-width:100%}
+
+/* Contact-section */
+.contact-section i{font-size:3.5rem;padding: 2rem;}
+.contact-section i:hover{color:#dfd2d2}
+.fb-icon{color:rgb(16, 16, 112)}
+.tw-icon{color:rgb(54, 123, 228)}
+.gm-icon{color:tomato}
+.im-icon{color:rgb(202, 64, 60)}
+.you-icon{color:red}
+
+/* Footer */
+footer{background-color: #222;color:rgb(180, 168, 168);text-transform: capitalize;padding-top:2rem}
+hr.light{border-top:1px solid rgb(175, 169, 169);width:75%}
+hr.light-full{border-top:1px solid rgb(175, 169, 169);width:100%}
+
+
+
+
+/* Media-query */
+
+@media(max-width:900px){ .carousel-caption{position: absolute;top:45%;transform:translateY(-50%)}
+    .carousel-caption h1,h3{font-size:1.9rem}  .carousel-caption button{width:9rem;font-size: 1rem;}
+    .welcoming h2{font-size:2.7rem;}
+    .team h2{font-size:2.7rem;}
+    .social i{font-size: 2.3rem;}
+    footer .web-developer{font-size: 1.9rem;}}
+@media(max-width:770px){ .carousel-caption{position: absolute;top:45%;transform:translateY(-50%)}
+    .carousel-caption h1,h3{font-size:1.5rem}  .carousel-caption button{width:9rem;font-size: 1rem;} 
+    .welcoming h2{font-size:2.5rem;}
+     .team h2{font-size:2.5rem;}
+     .social i{font-size: 2rem;}
+     footer .web-developer{font-size: 1.8rem;}
+}
+@media(max-width:567px){ .carousel-caption{position: absolute;top:39%;transform:translateY(-50%)}
+    .carousel-caption h1,h3{font-size:1.5rem} .carousel-caption h3{font-size:1rem} .carousel-caption button{width:6rem;font-size: .7rem;} 
+    .welcoming h2{font-size:2rem;}
+     .team h2{font-size:2rem;}
+     .social i{font-size: 1.6rem;padding:1.5rem}
+     footer .web-developer{font-size: 1.5rem;}}
