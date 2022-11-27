@@ -12,7 +12,7 @@ nav{background-color: #cac8c8;}
 
 /*Main-section */
 .carousel-item img{max-width:100%}
-.carousel-caption{position: absolute;top:50%;transform:translateY(-50%)}
+.carousel-caption{position: absolute;top:50%;transform:translateY(-50%);overflow-y:hidden}
 .carousel-caption h1{font-size:500%;text-transform: uppercase;text-shadow: 1px 1px 15px black;}
 .carousel-caption h3{font-size:200%;font-weight:500;text-shadow: 1px 1px 10px black;padding-bottom: 1rem;}
 .btn-purple{background-color: blueviolet;color: #fff;}
@@ -64,17 +64,18 @@ hr.light-full{border-top:1px solid rgb(175, 169, 169);width:100%}
     .team h2{font-size:2.7rem;}
     .social i{font-size: 2.3rem;}
     footer .web-developer{font-size: 1.9rem;}}
-@media(max-width:770px){ .carousel-caption{position: absolute;top:45%;transform:translateY(-50%)}
-    .carousel-caption h1,h3{font-size:1.5rem}  .carousel-caption button{width:9rem;font-size: 1rem;} 
+@media(max-width:770px){ .carousel-caption{position: absolute;top: 45%;transform:translateY(-50%)}
+    .carousel-caption h1{font-size :2rem;} .carousel-caption h3{font-size :1rem;}  .carousel-caption button{width:7rem;font-size: .8rem;padding:.1rem;} 
+    .web-hosting p{font-size:.9rem} .web-hosting button{font-size: 1rem;}
     .welcoming h2{font-size:2.5rem;}
      .team h2{font-size:2.5rem;}
      .social i{font-size: 2rem;}
      footer .web-developer{font-size: 1.8rem;}
 }
-@media(max-width:567px){ .carousel-caption{position: absolute;top:39%;transform:translateY(-50%)}
-    .carousel-caption h1,h3{font-size:1.5rem} .carousel-caption h3{font-size:1rem} .carousel-caption button{width:6rem;font-size: .7rem;} 
-    .web-hosting p{font-size:.8rem} .web-hosting button{font-size: .9rem;}
+@media(max-width:567px){ .carousel-caption{position: absolute;top:45%;transform:translateY(-50%)}
+    .carousel-caption h1,h3{font-size:1.5rem}  .carousel-caption button{ width:6rem;font-size: .7rem;;padding:.1rem;} 
+     .web-hosting p{font-size:.8rem} .web-hosting button{font-size: .9rem;}
     .welcoming h2{font-size:2rem;}
      .team h2{font-size:2rem;}
-     .social i{font-size: 1.1rem;padding:1.5rem}
+     .social i{font-size: 1.3rem;padding:1.5rem}
      footer .web-developer{font-size: 1.5rem;}}
