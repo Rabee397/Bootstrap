@@ -73,7 +73,8 @@ hr.light-full{border-top:1px solid rgb(175, 169, 169);width:100%}
 }
 @media(max-width:567px){ .carousel-caption{position: absolute;top:39%;transform:translateY(-50%)}
     .carousel-caption h1,h3{font-size:1.5rem} .carousel-caption h3{font-size:1rem} .carousel-caption button{width:6rem;font-size: .7rem;} 
+    .web-hosting p{font-size:.8rem} .web-hosting button{font-size: .9rem;}
     .welcoming h2{font-size:2rem;}
      .team h2{font-size:2rem;}
-     .social i{font-size: 1.6rem;padding:1.5rem}
+     .social i{font-size: 1.1rem;padding:1.5rem}
      footer .web-developer{font-size: 1.5rem;}}
